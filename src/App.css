@@ -4,10 +4,17 @@
 }
 
 .app-wrapper {
+  margin: auto;
   width: 80%;
   height: 800px;
-  background-color: gray;
+  background-color: rgb(155, 155, 155);
   border-radius: 1rem;
+}
+
+.new-task {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(0, 194, 0);
 }
 
 @media (prefers-reduced-motion: no-preference) {
