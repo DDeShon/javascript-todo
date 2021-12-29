@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className="app-wrapper">
         <h1>Task Manager</h1>
-        <button className="new-task">New Task</button>
+        <button className="btn-new-task">New Task</button>
       </div>
     </div>
   );
