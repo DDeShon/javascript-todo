@@ -1,10 +1,13 @@
 .App {
+  display: flex;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-wrapper {
+  width: 80%;
+  height: 800px;
+  background-color: gray;
+  border-radius: 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
