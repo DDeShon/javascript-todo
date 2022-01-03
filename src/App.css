@@ -20,6 +20,12 @@
   font-size: 1.5rem;
 }
 
+.todo li {
+  text-align: left;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
 .btn-new-task {
   margin: 0 1rem 1rem 0;
   align-self: flex-end;
