@@ -9,10 +9,18 @@ function App() {
         </div>
         <div className="list-wrapper">
           <ul className="todo">
-            <li>Go to the store</li>
-            <li>Go to the store</li>
-            <li>Go to the store</li>
-            <li>Go to the store</li>
+            <div className="list-item">
+              <li>Go to the store</li>
+            </div>
+            <div className="list-item">
+              <li>Go to the store</li>
+            </div>
+            <div className="list-item">
+              <li>Go to the store</li>
+            </div>
+            <div className="list-item">
+              <li>Go to the store</li>
+            </div>
           </ul>
         </div>
         <button className="btn-new-task">New Task</button>

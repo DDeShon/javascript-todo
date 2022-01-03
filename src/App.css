@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -7,7 +13,7 @@
   flex-direction: column;
   margin: auto;
   width: 80%;
-  height: 800px;
+  height: 100vh;
   background-color: rgb(155, 155, 155);
   border-radius: 1rem;
   justify-content: space-between;
@@ -20,10 +26,14 @@
   font-size: 1.5rem;
 }
 
-.todo li {
+.list-wrapper {
+  height: 100vh;
+}
+
+.list-item {
+  font-size: 2rem;
   text-align: left;
   list-style: none;
-  font-size: 1.5rem;
 }
 
 .btn-new-task {
