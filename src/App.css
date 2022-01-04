@@ -53,6 +53,11 @@
 @media only screen and (max-width: 768px) {
   .app-wrapper {
     width: 100%;
+    border-radius: 0;
+  }
+
+  .title-wrapper {
+    border-radius: 0;
   }
 
   .btn-new-task {
