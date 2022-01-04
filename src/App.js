@@ -13,7 +13,7 @@ function App() {
               <li>Go to the store</li>
             </div>
             <div className="list-item">
-              <li>Go to the store</li>
+              <li className="checked">Go to the store</li>
             </div>
             <div className="list-item">
               <li>Go to the store</li>

@@ -33,13 +33,29 @@
 }
 
 .list-item {
+  cursor: pointer;
+  position: relative;
   font-size: 2rem;
   padding: 0.5rem;
-  margin: 0.25rem 0;
+  margin: 0.2rem 0;
   text-align: left;
   list-style: none;
   background-color: rgb(82, 62, 255);
-  color: rgb(155, 155, 155);
+  border-radius: 1rem;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.list-item:hover {
+  background-color: rgb(127, 112, 255);
+}
+
+.list-item li.checked {
+  text-decoration: line-through;
+  color: white;
 }
 
 .btn-new-task {
@@ -74,6 +90,5 @@
 
   .btn-new-task {
     align-self: center;
-    /* width: auto; */
   }
 }
