@@ -39,6 +39,7 @@
   text-align: left;
   list-style: none;
   background-color: rgb(82, 62, 255);
+  color: rgb(155, 155, 155);
 }
 
 .btn-new-task {
@@ -50,6 +51,10 @@
   background-color: rgb(13, 0, 126);
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
+}
+
+.btn-new-task:hover {
+  background-color: rgb(82, 62, 255);
 }
 
 @media only screen and (max-width: 768px) {
