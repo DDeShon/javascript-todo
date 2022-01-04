@@ -35,8 +35,10 @@
 .list-item {
   font-size: 2rem;
   padding: 0.5rem;
+  margin: 0.25rem 0;
   text-align: left;
   list-style: none;
+  background-color: rgb(82, 62, 255);
 }
 
 .btn-new-task {
@@ -58,6 +60,11 @@
 
   .title-wrapper {
     border-radius: 0;
+  }
+
+  .list-item {
+    font-size: 1.5rem;
+    padding: 0.25rem;
   }
 
   .btn-new-task {
