@@ -74,8 +74,8 @@
 
 .input-wrapper {
   display: flex;
-  margin: 2rem 0 2rem 0;
-  justify-content: space-evenly;
+  margin: 2rem 0.5rem;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -84,7 +84,7 @@
   font-size: 2rem;
   align-items: center;
   height: 3rem;
-  width: 70%;
+  width: 80%;
   border-radius: 1rem;
 }
 
@@ -109,6 +109,16 @@
 
   .title-wrapper {
     border-radius: 0;
+  }
+
+  .input-wrapper {
+    margin: 1rem 0 1rem 0;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  .input-wrapper input {
+    width: 70%;
   }
 
   .list-item {
