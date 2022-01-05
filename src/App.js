@@ -7,6 +7,10 @@ function App() {
         <div className="title-wrapper">
           <h1>Task Manager</h1>
         </div>
+        <div className="input-wrapper">
+          <input type="text" placeholder="Task" />
+          <button className="btn-new-task">Add Task</button>
+        </div>
         <div className="list-wrapper">
           <ul className="todo">
             <div className="list-item">
@@ -23,7 +27,6 @@ function App() {
             </div>
           </ul>
         </div>
-        <button className="btn-new-task">New Task</button>
       </div>
     </div>
   );
