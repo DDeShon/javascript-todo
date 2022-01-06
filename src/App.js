@@ -8,7 +8,7 @@ function App() {
           <h1>Task Manager</h1>
         </div>
         <div className="input-wrapper">
-          <input type="text" placeholder="Task" />
+          <input type="text" placeholder="Enter Task" />
           <button className="btn-new-task">Add Task</button>
         </div>
         <div className="list-wrapper">
