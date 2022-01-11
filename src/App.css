@@ -55,7 +55,7 @@
 
 .list-item li.checked {
   text-decoration: line-through;
-  color: white;
+  color: green;
   padding-left: 2.5rem;
 }
 
