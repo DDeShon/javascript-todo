@@ -1,5 +1,5 @@
 import "./App.css";
-import newElement from "./ToDo.js";
+import "./ToDo.js";
 
 function App() {
   return (
@@ -10,7 +10,9 @@ function App() {
         </div>
         <div className="input-wrapper">
           <input type="text" id="input" placeholder="Enter Task" />
-          <button className="btn-new-task">Add Task</button>
+          <button onclick="newElement()" className="btn-new-task">
+            Add Task
+          </button>
         </div>
         <div className="list-wrapper">
           <ul className="todo">

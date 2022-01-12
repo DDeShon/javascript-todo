@@ -18,7 +18,7 @@ for (i = 0; i < close.length; i++) {
   };
 }
 
-// Add check symbol upon clicking list item
+// Add check symbol after clicking list item
 var list = document.querySelector("ul");
 list.addEventListener(
   "click",
@@ -56,4 +56,4 @@ function newElement() {
   }
 }
 
-export default newElement;
+// export default newElement;
