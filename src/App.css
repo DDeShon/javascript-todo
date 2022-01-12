@@ -86,7 +86,7 @@
   align-items: flex-end;
 }
 
-.input-wrapper input {
+.input-wrapper .input-field {
   padding-left: 0.5rem;
   font-size: 2rem;
   align-items: center;
