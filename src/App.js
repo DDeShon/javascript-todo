@@ -1,5 +1,5 @@
 import "./App.css";
-import "./ToDo.js";
+import TodoList from "./components/todoList";
 
 function App() {
   return (
@@ -13,7 +13,8 @@ function App() {
           <button className="btn-new-task">Add Task</button>
         </div>
         <div className="list-wrapper">
-          <ul className="todo">
+          <TodoList />
+          {/* <ul className="todo">
             <div className="list-item">
               <li>Finish To Do App</li>
             </div>
@@ -26,7 +27,7 @@ function App() {
             <div className="list-item">
               <li>Do Dishes</li>
             </div>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

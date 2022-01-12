@@ -10,9 +10,11 @@ const todos = [
 const Todo = (props) => <li>{props.todo}</li>;
 
 const TodoList = () => (
-  <ul>
+  <ul className="todo">
     {todos.map((todo) => (
-      <li key={todo}>{todo}</li>
+      <li className="list-item" key={todo}>
+        {todo}
+      </li>
     ))}
   </ul>
 );
