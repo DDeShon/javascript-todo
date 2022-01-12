@@ -30,7 +30,7 @@ class App extends React.Component {
           <div className="title-wrapper">
             <h1>Task Manager</h1>
           </div>
-          <div className="input-wrapper">
+          <div className="form-wrapper">
             <TodoForm addTodo={this.addTodo} />
           </div>
           <div className="list-wrapper">

@@ -53,19 +53,15 @@ li:hover {
   background-color: rgb(127, 112, 255);
 }
 
-.input-wrapper {
-  display: flex;
-  margin: 2rem 0.5rem;
-  justify-content: space-between;
-  align-items: flex-end;
+.form-wrapper {
+  min-width: 100%;
+  margin: 1rem 0;
 }
 
-.input-wrapper .input-field {
+.input-field {
   padding-left: 0.5rem;
   font-size: 2rem;
-  align-items: center;
   height: 3rem;
-  width: 80%;
   border-radius: 1rem;
 }
 
@@ -75,7 +71,8 @@ li:hover {
   border-radius: 1rem;
   background-color: rgb(13, 0, 126);
   color: rgb(255, 255, 255);
-  font-size: 1.2rem;
+  position: absolute;
+  /* font-size: 1.2rem; */
 }
 
 .btn-new-task:hover {
