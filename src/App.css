@@ -32,7 +32,7 @@
   margin: 0 0.5rem;
 }
 
-.list-item {
+li {
   cursor: pointer;
   position: relative;
   font-size: 2rem;
@@ -49,34 +49,8 @@
   user-select: none;
 }
 
-.list-item:hover {
+li:hover {
   background-color: rgb(127, 112, 255);
-}
-
-.list-item li.checked {
-  text-decoration: line-through;
-  color: rgb(0, 221, 0);
-  padding-left: 2.5rem;
-}
-
-.list-item li.checked::before {
-  content: "";
-  position: absolute;
-  border-color: rgb(0, 221, 0);
-  border-style: solid;
-  border-width: 0 4px 4px 0;
-  top: 10px;
-  left: 16px;
-  transform: rotate(45deg);
-  height: 30px;
-  width: 14px;
-}
-
-.close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 0.5rem 1rem;
 }
 
 .input-wrapper {

@@ -7,13 +7,19 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      todos: ["Finish To Do App", "Go to the store", "Do laundry", "Do dishes"],
+      todos: [],
     };
   }
 
   addTodo = (todo) => {
     this.setState((prevState) => ({
       todos: [...prevState.todos, todo],
+    }));
+  };
+
+  deleteTodo = (value) => {
+    this.setState((prevState) => ({
+      todos: prevState.todos.filter((todo) => todo !== value),
     }));
   };
 
@@ -28,7 +34,7 @@ class App extends React.Component {
             <TodoForm addTodo={this.addTodo} />
           </div>
           <div className="list-wrapper">
-            <TodoList todos={this.state.todos} />
+            <TodoList todos={this.state.todos} deleteTodo={this.deleteTodo} />
           </div>
         </div>
       </div>
